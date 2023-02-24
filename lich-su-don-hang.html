@@ -1,0 +1,320 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1,viewport-fit=cover">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="generator" content="">
+    <meta name="theme-color" content="#f44034 ">
+    <title>HIYA.COM - DỊCH VỤ XU HIYA</title>
+
+    <!-- manifest meta -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="manifest.json" />
+	<meta name="og:image" content="https://canhsky.com/Assets/images/share.jpg">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="https://canhsky.com/Assets/img/favicon.png" sizes="180x180">
+    <link rel="icon" href="https://canhsky.com/Assets/img/favicon.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="https://canhsky.com/Assets/img/favicon.png" sizes="16x16" type="image/png">
+
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="/Assets/bootstrap-icons/font/bootstrap-icons.css">
+
+    <!-- chosen css -->
+    <link rel="stylesheet" href="/Assets/vendor/chosen_v1.8.7/chosen.min.css">
+
+    <!-- date range picker -->
+    <link rel="stylesheet" href="/Assets/vendor/daterangepicker/daterangepicker.css">
+
+    <!-- no ui slider -->
+    <link rel="stylesheet" href="/Assets/vendor/nouislider/nouislider.min.css">
+
+    <!-- swiper carousel css -->
+    <link rel="stylesheet" href="/Assets/vendor/swiper/swiper-bundle.min.css">
+
+    <link href="/Assets/toastr/toastr.css" rel="stylesheet" />
+
+    <!-- style css for this template -->
+    <link href="/Assets/scss/style.css?v=20230224141524" rel="stylesheet">
+    
+</head>
+
+<body class="d-flex flex-column h-100 sidebar-pushcontent theme-purple" data-theme="theme-purple">
+
+    <img src="/Assets/images/bg-2.png" alt="" class="background-img">
+
+    <!-- page loader -->
+    <div class="container-fluid h-100 position-fixed loader-wrap bg-blur">
+        <div class="row justify-content-center h-100">
+            <div class="col-auto align-self-center text-center px-5 leaf">
+
+                <div class="logo-square animated bg-gradient-theme-light mb-4">
+                    <div class="icon-logo">
+                        <img src="/Assets/images/favicon.png" alt="" />
+                    </div>
+                </div>
+                <h4 class="mb-1 text-theme">HIYA.COM</h4>
+                <h6 class="mb-3 text-theme">Uy tín - Chất lượng</h6>
+                <div class="dotslaoder">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+    <!-- page loader ends -->
+<!-- Sidebar -->
+    <div class="sidebar-wrap ">
+        <div class="sidebar">
+            <div class="container">
+                <div class="row align-items-center mb-4">
+                        <div class="col-auto">
+                            <a href="/thong-tin-tai-khoan" class="avatar avatar-44 rounded-circle coverimg"><img src="/Assets/images/favicon.png" alt=""></a>
+                        </div>
+                        <div class="col">
+                            <h5 class="mb-0"></h5>
+                            <p class="text-muted"></p>
+                        </div>
+                </div>
+
+                <!-- user menu navigation -->
+                <div class="row mb-4">
+                    <div class="col-12 px-0">
+                        <ul class="nav nav-pills" id="docmenu">
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/thong-tin-tai-khoan">
+                                        <div class="avatar avatar-40 icon"><i class="bi bi-person"></i></div>
+                                        <div class="col">Thông tin tài khoản</div>
+                                        <div class="arrow"><i class="bi bi-chevron-right"></i></div>
+                                    </a>
+                                </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/dich-vu-hiya">
+                                    <div class="avatar avatar-40 icon"><i class="bi bi-cart-check "></i></div>
+                                    <div class="col">Nạp xu Hiya</div>
+                                    <div class="arrow"><i class="bi bi-chevron-right"></i></div>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/chat">
+                                    <div class="avatar avatar-40 icon"><i class="bi bi-compass "></i></div>
+                                    <div class="col">Chat</div>
+                                    <div class="arrow"><i class="bi bi-chevron-right"></i></div>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/nap-tien">
+                                    <div class="avatar avatar-40 icon"><i class="bi bi-credit-card"></i></div>
+                                    <div class="col">Nạp ví Hiya</div>
+                                    <div class="arrow"><i class="bi bi-chevron-right"></i></div>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/rut-tien">
+                                    <div class="avatar avatar-40 icon"><i class="bi bi-wallet"></i></div>
+                                    <div class="col">Rút tiền</div>
+                                    <div class="arrow"><i class="bi bi-chevron-right"></i></div>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/chuyen-tien">
+                                    <div class="avatar avatar-40 icon"><i class="bi bi-send-check"></i></div>
+                                    <div class="col">Chuyển tiền</div>
+                                    <div class="arrow"><i class="bi bi-chevron-right"></i></div>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/dai-ly">
+                                    <div class="avatar avatar-40 icon"><i class="bi bi-person-workspace"></i></div>
+                                    <div class="col">Đại lý</div>
+                                    <div class="arrow"><i class="bi bi-chevron-right"></i></div>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://zalo.me/0813584885" target="_blank">
+                                    <div class="avatar avatar-40 icon"><i class="bi bi-person-circle"></i></div>
+                                    <div class="col">Liên hệ admin</div>
+                                    <div class="arrow"><i class="bi bi-chevron-right"></i></div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                    <div class="row mb-4">
+                        <div class="col-12 px-0">
+                            <ul class="nav nav-pills">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="/dang-xuat">
+                                        <div class="avatar avatar-40 icon"><i class="bi bi-power"></i></div>
+                                        <div class="col">Đăng xuất</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+            </div>
+            <button class="btn btn-white btn-sm btn-square-sm rounded-circle position-absolute start-0 end-0 bottom-0 mx-auto menu-btn mb-3">
+                <i class="bi bi-x-lg"></i>
+            </button>
+        </div>
+    </div>
+    <!-- Sidebar ends -->
+    <main class="main vh-100">
+        <!-- Begin page content -->
+        <div class="container-fluid h-100 theme-ihago">
+            <div class="row h-100 flex-column">
+                
+
+<div class="col-12 mb-0">
+    <!-- header -->
+    <header class="header row align-items-center">
+        <div class="col-auto pe-0">
+            <a href="/dich-vu-hago" class="btn btn-link btn-square back-btn" type="button">
+                <i class="bi bi-arrow-left fs-4"></i>
+            </a>
+        </div>
+        <div class="col">
+            <h5 class="mb-0 mt-1">Lịch sử đơn hàng</h5>
+        </div>
+        <div class="col-auto ms-auto ps-0">
+            <a href="javascript:void(0)" class="h5 text-theme" id="btnRefreshPage">Làm mới</a>
+        </div>
+    </header>
+    <!-- header ends -->
+</div>
+
+<div class="col position-relative page-content section-history">
+    <!-- content page -->
+    <div class="justify-content-center" id="order-history">
+
+    </div>
+    <div class="row">
+        <div class="col text-center">
+            <a href="javascript:void(0)" class="h5 text-theme" id="btnLoadMore">Xem thêm...</a>
+        </div>
+    </div>
+</div>
+                    <div class="col-12 mt-0 footer-sht">
+                        <!-- footer sticky bottom -->
+                        <footer class="footer-sticky bg-white p-3 my-3">
+                            <div class="row">
+                                <div class="col">
+                                    <select class="form-select" id="month">
+                                                <option value="1">Tháng 1</option>
+                                                <option value="2" selected>Tháng 2</option>
+                                                <option value="3">Tháng 3</option>
+                                                <option value="4">Tháng 4</option>
+                                                <option value="5">Tháng 5</option>
+                                                <option value="6">Tháng 6</option>
+                                                <option value="7">Tháng 7</option>
+                                                <option value="8">Tháng 8</option>
+                                                <option value="9">Tháng 9</option>
+                                                <option value="10">Tháng 10</option>
+                                                <option value="11">Tháng 11</option>
+                                                <option value="12">Tháng 12</option>
+                                    </select>
+                                </div>
+                                <div class="col">
+                                    <select class="form-select" id="year">
+                                                <option value="2022">Năm 2022</option>
+                                                <option value="2023" selected>Năm 2023</option>
+                                                <option value="2024">Năm 2024</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </footer>
+                        <!-- footer sticky bottom ends -->
+                    </div>
+
+            </div>
+        </div>
+    </main>
+    <div class="modal fade" id="showNotificationMapping" tabindex="-1" aria-modal="true" role="dialog" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog modal-dialog-centered ">
+            <div class="modal-content">
+                <div class="modal-header d-block">
+                    <div class="row align-items-center">
+                        <div class="col-auto">
+                            <i class="bi bi-bell h5 avatar avatar-40 bg-light-theme rounded"></i>
+                        </div>
+                        <div class="col">
+                            <h6 class="fw-medium mb-0">Thông báo</h6>
+                        </div>
+                        <div class="col-auto">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <div class="row mb-2">
+                        <div class="col">
+                            <h6 id="titleNotification"></h6>
+                            <span class="small" id="contentNotification"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Rightbar ends -->
+    <!-- Required jquery and libraries -->
+    <script src="/Assets/js/jquery-3.3.1.min.js"></script>
+    <script src="/Assets/js/popper.min.js"></script>
+    <script src="/Assets/vendor/bootstrap-5/dist/js/bootstrap.bundle.js"></script>
+
+    <!-- Customized jquery file  -->
+    <script src="/Assets/js/main.js"></script>
+    <script src="/Assets/js/color-scheme.js"></script>
+
+    <!-- date range picker -->
+    <script src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script src="/Assets/vendor/daterangepicker/daterangepicker.js"></script>
+
+    <!-- chosen script -->
+    <script src="/Assets/vendor/chosen_v1.8.7/chosen.jquery.min.js"></script>
+
+    <!-- Chart js script -->
+    <script src="/Assets/vendor/chart-js-3.3.1/chart.min.js"></script>
+
+    <!-- no ui slider js script -->
+    <script src="/Assets/vendor/nouislider/nouislider.min.js"></script>
+
+    <!-- Progress circle js script -->
+    <script src="/Assets/vendor/progressbar-js/progressbar.min.js"></script>
+
+    <!-- swiper js script -->
+    <script src="/Assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="/Assets/toastr/toastr.js"></script>
+    <script src="/Scripts/jquery.signalR-2.4.3.min.js"></script>
+    <script src="/signalr/hubs"></script>
+    <!-- script js -->
+    <script src="/Assets/controller/base.js?v=20230224141524"></script>
+    <script src="/Assets/controller/accounting.js"></script>
+    <script src="/Assets/controller/orderhago.js?v=20230224141524"></script>
+
+    
+</body>
+</html>
+
+
+
